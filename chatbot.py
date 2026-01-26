@@ -22,7 +22,6 @@ pairs = [
     [r"(.*)(sports|game|sport)(.*)", ["I'm a very big fan of Cricket"]],
     [r"who (.*) (Cricketer|Batsman)?", ["Virat Kohli"]],
     [r"quit", ["Bye for now. See you soon :)", "It was nice talking to you."]],
-    [r"where is bantu", ["Bantu is in the bathroom going dhoddiki."]],
     [r"(.*)", ["Our customer service will reach you"]]
 ]
 
