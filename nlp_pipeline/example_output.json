@@ -1,0 +1,803 @@
+{
+  "original_text": "Apple Inc. is reportedly looking at buying a U.K. startup for $1 billion. CEO Tim Cook confirmed the discussions in San Francisco on Monday. The acquisition could be the company's largest in Europe.",
+  "cleaned_text": "Apple Inc. is reportedly looking at buying a U.K. startup for $1 billion. CEO Tim Cook confirmed the discussions in San Francisco on Monday. The acquisition could be the company's largest in Europe.",
+  "sentences": [
+    "Apple Inc. is reportedly looking at buying a U.K.",
+    "startup for $1 billion.",
+    "CEO Tim Cook confirmed the discussions in San Francisco on Monday.",
+    "The acquisition could be the company's largest in Europe."
+  ],
+  "tokens": [
+    {
+      "text": "Apple",
+      "lower": "apple",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "Inc",
+      "lower": "inc",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": ".",
+      "lower": ".",
+      "is_alpha": false,
+      "is_punct": true,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "is",
+      "lower": "is",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true
+    },
+    {
+      "text": "reportedly",
+      "lower": "reportedly",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "looking",
+      "lower": "looking",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "at",
+      "lower": "at",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true
+    },
+    {
+      "text": "buying",
+      "lower": "buying",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "a",
+      "lower": "a",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true
+    },
+    {
+      "text": "U.K.",
+      "lower": "u.k.",
+      "is_alpha": false,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "startup",
+      "lower": "startup",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "for",
+      "lower": "for",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true
+    },
+    {
+      "text": "$1",
+      "lower": "$1",
+      "is_alpha": false,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "billion",
+      "lower": "billion",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": ".",
+      "lower": ".",
+      "is_alpha": false,
+      "is_punct": true,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "CEO",
+      "lower": "ceo",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "Tim",
+      "lower": "tim",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "Cook",
+      "lower": "cook",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "confirmed",
+      "lower": "confirmed",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "the",
+      "lower": "the",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true
+    },
+    {
+      "text": "discussions",
+      "lower": "discussions",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "in",
+      "lower": "in",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true
+    },
+    {
+      "text": "San",
+      "lower": "san",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "Francisco",
+      "lower": "francisco",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "on",
+      "lower": "on",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true
+    },
+    {
+      "text": "Monday",
+      "lower": "monday",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": ".",
+      "lower": ".",
+      "is_alpha": false,
+      "is_punct": true,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "The",
+      "lower": "the",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true
+    },
+    {
+      "text": "acquisition",
+      "lower": "acquisition",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "could",
+      "lower": "could",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "be",
+      "lower": "be",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true
+    },
+    {
+      "text": "the",
+      "lower": "the",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true
+    },
+    {
+      "text": "company's",
+      "lower": "company's",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "largest",
+      "lower": "largest",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": "in",
+      "lower": "in",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true
+    },
+    {
+      "text": "Europe",
+      "lower": "europe",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false
+    },
+    {
+      "text": ".",
+      "lower": ".",
+      "is_alpha": false,
+      "is_punct": true,
+      "is_digit": false,
+      "is_stop": false
+    }
+  ],
+  "pos_tags": [
+    {
+      "text": "Apple",
+      "lower": "apple",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PROPN",
+      "explanation": "Proper noun (capitalised)"
+    },
+    {
+      "text": "Inc",
+      "lower": "inc",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PROPN",
+      "explanation": "Proper noun (capitalised)"
+    },
+    {
+      "text": ".",
+      "lower": ".",
+      "is_alpha": false,
+      "is_punct": true,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PUNCT",
+      "explanation": "Punctuation"
+    },
+    {
+      "text": "is",
+      "lower": "is",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true,
+      "pos": "VERB",
+      "explanation": "Verb"
+    },
+    {
+      "text": "reportedly",
+      "lower": "reportedly",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "ADV",
+      "explanation": "Suffix rule: ly$"
+    },
+    {
+      "text": "looking",
+      "lower": "looking",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "VERB",
+      "explanation": "Suffix rule: ing$"
+    },
+    {
+      "text": "at",
+      "lower": "at",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true,
+      "pos": "PREP",
+      "explanation": "Preposition"
+    },
+    {
+      "text": "buying",
+      "lower": "buying",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "VERB",
+      "explanation": "Suffix rule: ing$"
+    },
+    {
+      "text": "a",
+      "lower": "a",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true,
+      "pos": "DET",
+      "explanation": "Determiner"
+    },
+    {
+      "text": "U.K.",
+      "lower": "u.k.",
+      "is_alpha": false,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PROPN",
+      "explanation": "Proper noun (capitalised)"
+    },
+    {
+      "text": "startup",
+      "lower": "startup",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "NOUN",
+      "explanation": "Default: noun"
+    },
+    {
+      "text": "for",
+      "lower": "for",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true,
+      "pos": "PREP",
+      "explanation": "Preposition"
+    },
+    {
+      "text": "$1",
+      "lower": "$1",
+      "is_alpha": false,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "NUM",
+      "explanation": "Numeral or monetary value"
+    },
+    {
+      "text": "billion",
+      "lower": "billion",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "NOUN",
+      "explanation": "Default: noun"
+    },
+    {
+      "text": ".",
+      "lower": ".",
+      "is_alpha": false,
+      "is_punct": true,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PUNCT",
+      "explanation": "Punctuation"
+    },
+    {
+      "text": "CEO",
+      "lower": "ceo",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PROPN",
+      "explanation": "Proper noun (capitalised)"
+    },
+    {
+      "text": "Tim",
+      "lower": "tim",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PROPN",
+      "explanation": "Proper noun (capitalised)"
+    },
+    {
+      "text": "Cook",
+      "lower": "cook",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PROPN",
+      "explanation": "Proper noun (capitalised)"
+    },
+    {
+      "text": "confirmed",
+      "lower": "confirmed",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "VERB",
+      "explanation": "Verb"
+    },
+    {
+      "text": "the",
+      "lower": "the",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true,
+      "pos": "DET",
+      "explanation": "Determiner"
+    },
+    {
+      "text": "discussions",
+      "lower": "discussions",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "NOUN",
+      "explanation": "Suffix rule: (?:s|es)$"
+    },
+    {
+      "text": "in",
+      "lower": "in",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true,
+      "pos": "PREP",
+      "explanation": "Preposition"
+    },
+    {
+      "text": "San",
+      "lower": "san",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PROPN",
+      "explanation": "Proper noun (capitalised)"
+    },
+    {
+      "text": "Francisco",
+      "lower": "francisco",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PROPN",
+      "explanation": "Proper noun (capitalised)"
+    },
+    {
+      "text": "on",
+      "lower": "on",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true,
+      "pos": "PREP",
+      "explanation": "Preposition"
+    },
+    {
+      "text": "Monday",
+      "lower": "monday",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PROPN",
+      "explanation": "Proper noun (capitalised)"
+    },
+    {
+      "text": ".",
+      "lower": ".",
+      "is_alpha": false,
+      "is_punct": true,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PUNCT",
+      "explanation": "Punctuation"
+    },
+    {
+      "text": "The",
+      "lower": "the",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true,
+      "pos": "DET",
+      "explanation": "Determiner"
+    },
+    {
+      "text": "acquisition",
+      "lower": "acquisition",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "NOUN",
+      "explanation": "Suffix rule: (?:tion|sion|ness|ment|ity|ence|ance|ship|hood|ism|ist|ery|ry|age)$"
+    },
+    {
+      "text": "could",
+      "lower": "could",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "VERB",
+      "explanation": "Verb"
+    },
+    {
+      "text": "be",
+      "lower": "be",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true,
+      "pos": "VERB",
+      "explanation": "Verb"
+    },
+    {
+      "text": "the",
+      "lower": "the",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true,
+      "pos": "DET",
+      "explanation": "Determiner"
+    },
+    {
+      "text": "company's",
+      "lower": "company's",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "NOUN",
+      "explanation": "Suffix rule: (?:s|es)$"
+    },
+    {
+      "text": "largest",
+      "lower": "largest",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "NOUN",
+      "explanation": "Default: noun"
+    },
+    {
+      "text": "in",
+      "lower": "in",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": true,
+      "pos": "PREP",
+      "explanation": "Preposition"
+    },
+    {
+      "text": "Europe",
+      "lower": "europe",
+      "is_alpha": true,
+      "is_punct": false,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PROPN",
+      "explanation": "Proper noun (capitalised)"
+    },
+    {
+      "text": ".",
+      "lower": ".",
+      "is_alpha": false,
+      "is_punct": true,
+      "is_digit": false,
+      "is_stop": false,
+      "pos": "PUNCT",
+      "explanation": "Punctuation"
+    }
+  ],
+  "pos_summary": {
+    "PROPN": 10,
+    "VERB": 6,
+    "NOUN": 6,
+    "PREP": 5,
+    "PUNCT": 4,
+    "DET": 4,
+    "ADV": 1,
+    "NUM": 1
+  },
+  "entities": [
+    {
+      "text": "Apple",
+      "label": "ORG",
+      "description": "Organisation",
+      "start_char": 0,
+      "end_char": 5
+    },
+    {
+      "text": "U.K.",
+      "label": "GPE",
+      "description": "Geo-political entity",
+      "start_char": 45,
+      "end_char": 49
+    },
+    {
+      "text": "$1",
+      "label": "MONEY",
+      "description": "Monetary value",
+      "start_char": 62,
+      "end_char": 64
+    },
+    {
+      "text": "Tim Cook",
+      "label": "PERSON",
+      "description": "Potential person/place name",
+      "start_char": 78,
+      "end_char": 86
+    },
+    {
+      "text": "San Francisco",
+      "label": "GPE",
+      "description": "Geo-political entity",
+      "start_char": 116,
+      "end_char": 129
+    },
+    {
+      "text": "Monday",
+      "label": "DATE",
+      "description": "Date reference",
+      "start_char": 133,
+      "end_char": 139
+    },
+    {
+      "text": "Europe",
+      "label": "GPE",
+      "description": "Geo-political entity",
+      "start_char": 191,
+      "end_char": 197
+    }
+  ],
+  "entity_summary": {
+    "ORG": [
+      "Apple"
+    ],
+    "GPE": [
+      "U.K.",
+      "San Francisco",
+      "Europe"
+    ],
+    "MONEY": [
+      "$1"
+    ],
+    "PERSON": [
+      "Tim Cook"
+    ],
+    "DATE": [
+      "Monday"
+    ]
+  },
+  "sentence_sentiments": [
+    {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0,
+      "label": "NEUTRAL",
+      "emoji": "😐",
+      "sentence": "Apple Inc. is reportedly looking at buying a U.K."
+    },
+    {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0,
+      "label": "NEUTRAL",
+      "emoji": "😐",
+      "sentence": "startup for $1 billion."
+    },
+    {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0,
+      "label": "NEUTRAL",
+      "emoji": "😐",
+      "sentence": "CEO Tim Cook confirmed the discussions in San Francisco on Monday."
+    },
+    {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0,
+      "label": "NEUTRAL",
+      "emoji": "😐",
+      "sentence": "The acquisition could be the company's largest in Europe."
+    }
+  ],
+  "overall_sentiment": {
+    "avg_compound": 0.0,
+    "label": "NEUTRAL",
+    "emoji": "😐"
+  }
+}

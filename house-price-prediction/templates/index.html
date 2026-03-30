@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>House Price Predictor</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 16px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 20px;
+      padding: 40px;
+      width: 100%;
+      max-width: 620px;
+      color: #fff;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+
+    .card h1 {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 4px;
+    }
+
+    .card p.subtitle {
+      text-align: center;
+      color: #94a3b8;
+      margin-bottom: 30px;
+      font-size: 0.95rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .field label {
+      font-size: 0.82rem;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .field input {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 10px;
+      padding: 10px 14px;
+      color: #fff;
+      font-size: 0.95rem;
+      transition: border 0.2s;
+      outline: none;
+    }
+
+    .field input:focus {
+      border-color: #60a5fa;
+      background: rgba(96,165,250,0.08);
+    }
+
+    button[type="submit"] {
+      width: 100%;
+      margin-top: 24px;
+      padding: 14px;
+      border: none;
+      border-radius: 12px;
+      background: linear-gradient(90deg, #3b82f6, #6366f1);
+      color: #fff;
+      font-size: 1.05rem;
+      font-weight: 600;
+      cursor: pointer;
+      letter-spacing: 0.03em;
+      transition: opacity 0.2s, transform 0.1s;
+    }
+
+    button[type="submit"]:hover { opacity: 0.9; transform: translateY(-1px); }
+    button[type="submit"]:active { transform: translateY(0); }
+
+    .result {
+      margin-top: 24px;
+      text-align: center;
+      background: rgba(96,165,250,0.12);
+      border: 1px solid rgba(96,165,250,0.3);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .result p {
+      color: #94a3b8;
+      font-size: 0.9rem;
+      margin-bottom: 6px;
+    }
+
+    .result .price {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #60a5fa;
+    }
+
+    .hint {
+      font-size: 0.75rem;
+      color: #64748b;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🏠 House Price Predictor</h1>
+    <p class="subtitle">California Housing · Random Forest Model</p>
+
+    <form action="/predict" method="POST">
+      <div class="grid">
+
+        <div class="field">
+          <label>Median Income</label>
+          <input type="number" name="MedInc" step="0.1" placeholder="e.g. 5.0" required />
+          <span class="hint">Median income in block (in $10,000s)</span>
+        </div>
+
+        <div class="field">
+          <label>House Age</label>
+          <input type="number" name="HouseAge" step="1" placeholder="e.g. 30" required />
+          <span class="hint">Median age of houses in block</span>
+        </div>
+
+        <div class="field">
+          <label>Avg Rooms</label>
+          <input type="number" name="AveRooms" step="0.1" placeholder="e.g. 5.5" required />
+          <span class="hint">Average number of rooms per household</span>
+        </div>
+
+        <div class="field">
+          <label>Avg Bedrooms</label>
+          <input type="number" name="AveBedrms" step="0.1" placeholder="e.g. 1.1" required />
+          <span class="hint">Average bedrooms per household</span>
+        </div>
+
+        <div class="field">
+          <label>Population</label>
+          <input type="number" name="Population" step="1" placeholder="e.g. 1200" required />
+          <span class="hint">Block group population</span>
+        </div>
+
+        <div class="field">
+          <label>Avg Occupancy</label>
+          <input type="number" name="AveOccup" step="0.1" placeholder="e.g. 3.0" required />
+          <span class="hint">Average household occupants</span>
+        </div>
+
+        <div class="field">
+          <label>Latitude</label>
+          <input type="number" name="Latitude" step="0.0001" placeholder="e.g. 37.88" required />
+          <span class="hint">Block group latitude</span>
+        </div>
+
+        <div class="field">
+          <label>Longitude</label>
+          <input type="number" name="Longitude" step="0.0001" placeholder="e.g. -122.23" required />
+          <span class="hint">Block group longitude</span>
+        </div>
+
+      </div>
+
+      <button type="submit">Predict Price</button>
+    </form>
+
+    {% if prediction %}
+    <div class="result">
+      <p>Estimated House Value</p>
+      <div class="price">{{ prediction }}</div>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>

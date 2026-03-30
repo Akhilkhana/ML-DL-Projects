@@ -1,0 +1,5 @@
+# NLP Pipeline – Python dependencies
+# Install with:  pip install -r requirements.txt
+# No model downloads required — the pipeline is fully self-contained.
+
+vaderSentiment>=3.3.2
