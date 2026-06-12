@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables
+.env
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Trained models (generate locally by running notebooks)
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Generated output files
+scores.txt
+*.png
+*.mp3
+lang.mp3
+smp_data_from_app.csv
+ConfusionMatrix.png
+FeatureImportance.png
+
+# Static/generated assets
+static/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
